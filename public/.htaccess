@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^ecr-rehabilitacja.com.pl [NC]
+RewriteRule ^(.*)$ https://www.ecr-rehabilitacja.com.pl/$1 [L,R=301]
+
+#Options FollowSymLinks
+#RewriteRule ^onas$ https://www.ecr-rehabilitacja.com.pl?site=onas [QSA,L]
+#RewriteRule ^tecar$ https://www.ecr-rehabilitacja.com.pl?site=tecar [QSA,L]
+#RewriteRule ^rodo$ https://www.ecr-rehabilitacja.com.pl?site=rodo [QSA,L]
+#RewriteRule ^galeria$ https://www.ecr-rehabilitacja.com.pl?site=gallery [QSA,L]
+#RewriteRule ^sis$ https://www.ecr-rehabilitacja.com.pl?site=sis [QSA,L]
+#RewriteRule ^fizykoterapia$ https://www.ecr-rehabilitacja.com.pl?site=fizykoterapia [QSA,L]
+#RewriteRule ^pediatra$ https://www.ecr-rehabilitacja.com.pl?site=pediatra [QSA,L]
