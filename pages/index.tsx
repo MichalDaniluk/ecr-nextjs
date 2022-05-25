@@ -1,24 +1,22 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+
+import Welcome from '../components/welcome'
+import Feature from '../components/feature'
+import Service from '../components/service'
+import Gallery from '../components/gallery'
+import Testimonials from '../components/testimonials'
+import Contact from '../components/contact'
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <Head>
-        <title>ECR</title>
-        <meta name="description" content="" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-
-      </main>
-
-      <footer className={styles.footer}>
-      </footer>
-    </div>
+	  <>
+	  	<Welcome />
+	  	<Feature />
+	  	<Service />
+		<Gallery />
+		<Testimonials />
+		<Contact />
+	</>
   )
 }
 
