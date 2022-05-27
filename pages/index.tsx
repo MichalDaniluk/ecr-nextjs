@@ -1,15 +1,17 @@
 import type { NextPage } from 'next'
 
+import Header from "../components/header";
 import Welcome from '../components/welcome'
-import Feature from '../components/feature'
-import Service from '../components/service'
-import Gallery from '../components/gallery'
-import Testimonials from '../components/testimonials'
-import Contact from '../components/contact'
+import Feature from '../components/Feature/index'
+import Service from '../components/Service'
+import Gallery from '../components/Gallery'
+import Testimonials from '../components/Testimonials'
+import Contact from '../components/Contact'
 
 const Home: NextPage = () => {
   return (
 	  <>
+	  	{/*<Header />*/}
 	  	<Welcome />
 	  	<Feature />
 	  	<Service />

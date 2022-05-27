@@ -5,8 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ["Roboto"],
+      },
       colors: {
-        dark: "#67696c",
+        dark: "#959ef8",
+        darkblue: "#0570FA",
+        red: "#EFDB10",
+        menu: "#1104c7",
       },
     },
   },

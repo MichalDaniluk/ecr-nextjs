@@ -1,0 +1,28 @@
+[
+	{
+		"img":"/img/ser01.png",
+		"title":"Poradnia rehabilitacyjna",
+		"description":"Świadczymy profesjonalne usługi rehabilitacyjne w systemie ambulatoryjnej opieki lekarskiej oraz fizjoterapeutycznej"
+	},
+	{
+		"img":"/img/ser02.png",
+		"title":"Poradnia psychologiczna",
+		"description":"Zespół wysoko wykwalifikowanych i doświadczonych psychologów. Łączy nas podejście do pracy, które cechuje profesjonalizm, otwartość i uczciwość"
+	},
+	{
+		"img":"/img/ser03.png",
+		"title":"Gabinet hirurgiczny",
+		"description":"Zapraszamy do nowocześnie wyposażonego gabinetu chirurgicznego. Zapewniamy profesjonalizm, nowoczesne, bezbolesne leczenie"
+	},
+	{
+		"img":"/img/ser04.png",
+		"title":"Gabinet gastrologiczny",
+		"description":"Zapraszamy pacjentów z dolegliwościami układu pokarmowego na konsultacje ze specjalistami gastroenterologii"
+	},
+	{
+		"img":"/img/ser04.png",
+		"title":"Gabinet pediatryczny",
+		"description":"Zapraszamy pacjentów z dolegliwościami układu pokarmowego na konsultacje ze specjalistami gastroenterologii"
+	}
+
+]
