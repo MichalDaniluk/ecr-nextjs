@@ -1,3 +1,14 @@
-/node_modules
+# dependencies
+package-lock.json
+**/node_modules/*
+**/out/*
+.next/*
+
+# testing
+/coverage
+
+# production
+/build
+
+#IDE
 .DS_Store
-.next
