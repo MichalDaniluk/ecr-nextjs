@@ -11,7 +11,7 @@ import Contact from '../components/Contact'
 const Home: NextPage = () => {
   return (
 	  <>
-	  	{/*<Header />*/}
+		{/*<Header />*/}
 	  	<Welcome />
 	  	<Feature />
 	  	<Service />

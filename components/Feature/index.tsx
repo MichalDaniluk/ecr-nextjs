@@ -4,10 +4,10 @@ import Features from './features.json'
 const Feature = () => {
 	return(
 
-<section className="grid grid-cols-5 gap-4 m-12 drop-shadow-md">
+<section className="grid grid-cols-1 md:grid-cols-5 md:gap-4 md:m-4 drop-shadow-md m-auto max-w-screen-2xl">
 	{
 		Features.map((feature,key) => (
-			<FeatureBox key={key} img={feature.img} title={feature.title} description={feature.description} />
+			<FeatureBox key={key} img={feature.img} title={feature.title} description={feature.description} url={feature.url}/>
 		))
 	}
 </section>

@@ -5,14 +5,14 @@ return (<section id="blog" className="section-padding wow fadeInUp delay-05s">
         <div className="row">
           <div className="col-md-12 text-center">
             <h2 className="service-title pad-bt15">Artykuły o zdrowiu</h2>
-            <p className="sub-title pad-bt15">Tutaj znajdziesz nasze artykuły o zdrowiu, które<br>przydadzą się kazdemu kto dba o siebie.</p>
-            <hr className="bottom-line">
+            <p className="sub-title pad-bt15">Tutaj znajdziesz nasze artykuły o zdrowiu, które<br />przydadzą się kazdemu kto dba o siebie.</p>
+            <hr className="bottom-line" />
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12">
             <div className="blog-sec">
               <div className="blog-img">
                 <a href="">
-                  <img src="img/blog01.jpg" className="img-responsive">
+                  <img src="img/blog01.jpg" className="img-responsive" />
                 </a>
               </div>
               <div className="blog-info">
@@ -26,7 +26,7 @@ return (<section id="blog" className="section-padding wow fadeInUp delay-05s">
             <div className="blog-sec">
               <div className="blog-img">
                 <a href="">
-                  <img src="img/blog02.jpg" className="img-responsive">
+                  <img src="img/blog02.jpg" className="img-responsive" />
                 </a>
               </div>
               <div className="blog-info">
@@ -40,7 +40,7 @@ return (<section id="blog" className="section-padding wow fadeInUp delay-05s">
             <div className="blog-sec">
               <div className="blog-img">
                 <a href="">
-                  <img src="img/blog03.jpg" className="img-responsive">
+                  <img src="img/blog03.jpg" className="img-responsive" />
                 </a>
               </div>
               <div className="blog-info">
