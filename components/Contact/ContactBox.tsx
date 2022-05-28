@@ -8,8 +8,8 @@ type Props = {
 
 const ContactBox:React.FC<Props> = ({street, city, email, phone, time}) => {
 	return(
-		<div className="loction-info white">
-              <p className="text-white"><i className="fa fa-map-marker fa-fw pull-left fa-2x"></i>{street}<br />{city}</p>
+		<div className="loction-info white pb-12">
+              <p className="text-white">{street}<br />{city}</p>
               <p className="text-white">{email}</p>
               <p className="text-white">{phone}</p>
               <p className="text-white">Godziny pracy: {time}</p>
