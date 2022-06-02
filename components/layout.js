@@ -3,10 +3,8 @@ import Head from "next/head";
 import MainMenu from "./mainMenu";
 import Footer from "./Footer/index";
 
-export default function Layout({ children }) {
-  return (
-    <>
-      {/*<Head>
+const Layout = ({ children }) => (
+  /*<Head>
         <title>Test</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,12 +26,13 @@ export default function Layout({ children }) {
           type="text/css"
           href="https://www.ecr-rehabilitacja.com.pl/css/animate.css"
         />
-      </Head>*/}
-      <body>
-        <MainMenu />
-        <main>{children}</main>
-        <Footer />
-      </body>
-    </>
-  );
-}
+      </Head>*/
+
+  <>
+    <MainMenu />
+    <main>{children}</main>
+    <Footer />
+  </>
+);
+
+export default Layout;

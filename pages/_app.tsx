@@ -1,18 +1,14 @@
-import React, { FunctionComponent } from 'react'
+import React from 'react'
+import { AppProps } from 'next/app'
 
 import '../styles/globals.css'
 
 import Layout from '../components/layout'
 
-type Props = {
-Component: FunctionComponent,
-pageProps:{}
-}
-
-const MyApp:React.FC<Props> = ({ Component, pageProps }) => {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <Layout>
-      <Component {...pageProps} />
+    	<Component {...pageProps} />
     </Layout>
   )
 }

@@ -3,7 +3,7 @@ import TestimonialBox from '../Testimonials/TestimonialBox'
 
 const Testimonials = () => {
 	return(
-		<section className="bg-dark text-white drop-shadow-lg">
+		<section id="testimonials" className="bg-dark text-white drop-shadow-lg">
 		<div id="testimonial" className="w-full p-4 md:p-24 grid grid-cols-1 md:grid-cols-3 m-auto max-w-screen-2xl">
 			<TestimonialBox title="Europejskie Centrum Rehabilitacji zapewniła mi profesjonalą opiekę podczas rehabilitacji mojego kręgosłupa. Bardzo dobrze dobrane zabiegi zapewniły mi szybki powrót do zdrowia" client="Paweł Brzozowski, Klient" />
 			<TestimonialBox title="Rehabilitacja kolana którą przeszedłem poszła świetnie dzięki wyspecjalizowanej kadrze Europejskiego Centrum Rehabilitacji w Białej Podlaskiej" client="Krzysztof, Klient" />

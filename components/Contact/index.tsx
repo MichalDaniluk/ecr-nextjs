@@ -11,7 +11,7 @@ return(
 		<SubHeader title="Zadzwoń do nas lub napisz wiadomość email" dark={false}/>
 		{/*<SubHeader title="Mozesz równiez wypełnic formularz kontaktowy, a bedziemy w kontakcie" dark={false}/>*/}
 		<HRShort />
-		<div className="grid md:grid-cols-2 place-items-center mt-12 mb-6">
+		<div id="contact" className="grid md:grid-cols-2 place-items-center mt-12 mb-6">
 			<ContactBox street="ul. Sitnicka 76" city="21-500 Biała Podlaska" email="ecr.rehabilitacjabp@gmail.com" phone="+48 83 344 27 00" time="8-18" />
 			<ContactBox street="ul. Piaskowa 1A lok nr 1" city="24-100 Puławy" email="psycholog.pulawy@gmail.com" phone="+48 797-818-489" time="8-21" />
 		</div>
