@@ -17,6 +17,7 @@ const Gallery = () => {
 	<GalleryBox url="/img/port02.jpg" alt="Parking" />
 	<GalleryBox url="/img/port03.jpg" alt="Parking" />
 </div>
+
 </>
 	)
 }

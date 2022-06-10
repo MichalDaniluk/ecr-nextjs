@@ -5,7 +5,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 6926:
+/***/ 926:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -19,11 +19,11 @@ __webpack_require__.d(__webpack_exports__, {
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
+var external_react_ = __webpack_require__(689);
 ;// CONCATENATED MODULE: external "next/head"
 const head_namespaceObject = require("next/head");
 // EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(1664);
+var next_link = __webpack_require__(664);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./components/mainMenu.tsx
 
@@ -38,7 +38,7 @@ const MainMenu = ()=>{
                     className: "mt-2 text-2xl text-white uppercase",
                     children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                         href: "/",
-                        children: "ECR"
+                        children: "ECRP"
                     })
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
@@ -207,77 +207,77 @@ const MyApp = ({ Component , pageProps  })=>{
 
 /***/ }),
 
-/***/ 2796:
+/***/ 796:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/head-manager-context.js");
 
 /***/ }),
 
-/***/ 4014:
+/***/ 14:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
 
 /***/ }),
 
-/***/ 8524:
+/***/ 524:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/is-plain-object.js");
 
 /***/ }),
 
-/***/ 8020:
+/***/ 20:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/mitt.js");
 
 /***/ }),
 
-/***/ 4406:
+/***/ 406:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/page-path/denormalize-page-path.js");
 
 /***/ }),
 
-/***/ 4964:
+/***/ 964:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router-context.js");
 
 /***/ }),
 
-/***/ 3938:
+/***/ 938:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
 
 /***/ }),
 
-/***/ 9565:
+/***/ 565:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
 
 /***/ }),
 
-/***/ 4365:
+/***/ 365:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router/utils/get-middleware-regex.js");
 
 /***/ }),
 
-/***/ 1428:
+/***/ 428:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
 
 /***/ }),
 
-/***/ 1292:
+/***/ 292:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.js");
@@ -291,35 +291,35 @@ module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
 
 /***/ }),
 
-/***/ 6052:
+/***/ 52:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router/utils/resolve-rewrites.js");
 
 /***/ }),
 
-/***/ 4226:
+/***/ 226:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router/utils/route-matcher.js");
 
 /***/ }),
 
-/***/ 5052:
+/***/ 422:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
 
 /***/ }),
 
-/***/ 9232:
+/***/ 232:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
-/***/ 6689:
+/***/ 689:
 /***/ ((module) => {
 
 module.exports = require("react");
@@ -340,7 +340,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [686,505,397,664], () => (__webpack_exec__(6926)));
+var __webpack_exports__ = __webpack_require__.X(0, [686,505,397,664], () => (__webpack_exec__(926)));
 module.exports = __webpack_exports__;
 
 })();

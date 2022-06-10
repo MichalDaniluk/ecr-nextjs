@@ -1,29 +1,29 @@
 #!/bin/bash
 #delete directories
 #echo 'delete directiories'
-rm -rf domains/nowa.ecr-rehabilitacja.com.pl/public_nodejs/styles
-rm -rf domains/nowa.ecr-rehabilitacja.com.pl/public_nodejs/pages
-rm -rf domains/nowa.ecr-rehabilitacja.com.pl/public_nodejs/components
-rm -rf domains/nowa.ecr-rehabilitacja.com.pl/public_nodejs/public
-rm -rf domains/nowa.ecr-rehabilitacja.com.pl/public_nodejs/.next
-cd /domains/nowa.ecr-rehabilitacja.com.pl/public_nodejs
+rm -rf domains/ecr-rehabilitacja.com.pl/public_nodejs/styles
+rm -rf domains/ecr-rehabilitacja.com.pl/public_nodejs/pages
+rm -rf domains/ecr-rehabilitacja.com.pl/public_nodejs/components
+rm -rf domains/ecr-rehabilitacja.com.pl/public_nodejs/public
+rm -rf domains/ecr-rehabilitacja.com.pl/public_nodejs/.next
+cd domains/ecr-rehabilitacja.com.pl/public_nodejs
 ls
 
 
 echo 'copy styles'
-scp -P 22 -r -C /Users/miki/projects/ecr-nextjs/styles ecrbp@s46.mydevil.net:domains/nowa.ecr-rehabilitacja.com.pl/public_nodejs
+scp -P 22 -r -C /Users/miki/projects/ecr-nextjs/styles ecrbp@s46.mydevil.net:domains/ecr-rehabilitacja.com.pl/public_nodejs
 
 echo 'copy components'
-scp -P 22 -r -C /Users/miki/projects/ecr-nextjs/components ecrbp@s46.mydevil.net:domains/nowa.ecr-rehabilitacja.com.pl/public_nodejs
+scp -P 22 -r -C /Users/miki/projects/ecr-nextjs/components ecrbp@s46.mydevil.net:domains/ecr-rehabilitacja.com.pl/public_nodejs
 
 echo 'copy pages'
-scp -P 22 -r -C /Users/miki/projects/ecr-nextjs/pages ecrbp@s46.mydevil.net:domains/nowa.ecr-rehabilitacja.com.pl/public_nodejs
+scp -P 22 -r -C /Users/miki/projects/ecr-nextjs/pages ecrbp@s46.mydevil.net:domains/ecr-rehabilitacja.com.pl/public_nodejs
 
 #echo 'copy  public folder'
-scp -P 22 -r -C /Users/miki/projects/ecr-nextjs/public ckkspl@s46.mydevil.net:domains/nowa.ecr-rehabilitacja.com.pl/public_nodejs
+scp -P 22 -r -C /Users/miki/projects/ecr-nextjs/public ecrbp@s46.mydevil.net:domains/ecr-rehabilitacja.com.pl/public_nodejs
 
 echo 'copy .next folder'
-scp -P 22 -r -C /Users/miki/projects/ecr-nextjs/.next ecrbp@s46.mydevil.net:domains/nowa.ecr-rehabilitacja.com.pl/public_nodejs
+scp -P 22 -r -C /Users/miki/projects/ecr-nextjs/.next ecrbp@s46.mydevil.net:domains/ecr-rehabilitacja.com.pl/public_nodejs
 
 echo 'restart server'
-ssh ecrbp@s46.mydevil.net devil www restart nowa.ecr-rehabilitacja.com.pl
+ssh ecrbp@s46.mydevil.net devil www restart ecr-rehabilitacja.com.pl
