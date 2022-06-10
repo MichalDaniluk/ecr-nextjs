@@ -5,7 +5,7 @@ import HRShort from '../ui/HRShort'
 
 const Service = () => {
 	return(
-		<div className="w-full bg-gradient-to-b from-cyan-500 to-blue-500 drop-shadow-lg">
+		<div id="service" className="w-full bg-gradient-to-b from-cyan-500 to-blue-500 drop-shadow-lg">
 		<div className="p-6 max-w-screen-2xl m-auto">
 			<div className="text-center block mt-12">
             	<Header2 title="Szukasz profesjonalnej rehabilitacji?" dark={false}/>

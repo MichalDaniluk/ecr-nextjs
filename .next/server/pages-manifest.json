@@ -1,8 +1,13 @@
 {
   "/_app": "pages/_app.js",
+  "/ems": "pages/ems.html",
+  "/": "pages/index.html",
+  "/onas": "pages/onas.html",
+  "/pediatra": "pages/pediatra.html",
+  "/rodo": "pages/rodo.html",
+  "/sis": "pages/sis.html",
+  "/tecar": "pages/tecar.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/rodo": "pages/rodo.js",
-  "/onas": "pages/onas.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

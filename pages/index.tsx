@@ -8,7 +8,7 @@ import Gallery from '../components/Gallery'
 import Testimonials from '../components/Testimonials'
 import Contact from '../components/Contact'
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
 	  <>
 		{/*<Header />*/}
