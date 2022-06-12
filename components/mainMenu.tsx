@@ -15,7 +15,7 @@ const  MainMenu = () => {
                   <li className="m-4 text-white uppercase"><Link href="/#gallery">Galeria</Link></li>
                   <li className="m-4 text-white uppercase"><Link href="#testimonial">Opinie o nas</Link></li>
                   <li className="m-4 text-white uppercase"><Link href="#contact">Kontakt</Link></li>
-                  <li className="m-4 text-white uppercase"><Link href="https://www.ecr-rehabilitacja.com.pl/assets/deklaracja_dostepnosci.pdf">Deklaracja dostępności</Link></li>
+                  <li className="m-4 text-white uppercase"><Link href="/assets/deklaracja_dostepnosci.pdf">Deklaracja dostępności</Link></li>
                 </ul>
               </div>
 
