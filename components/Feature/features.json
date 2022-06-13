@@ -28,6 +28,12 @@
 		"title":"Gabinet pediatryczny",
 		"description":"Zapraszamy pacjentów z dolegliwościami układu pokarmowego na konsultacje ze specjalistami gastroenterologii",
 		"url":"/pediatra"
+	},
+	{
+		"img":"/img/ser04.png",
+		"title":"Gabinet ortopedyczny",
+		"description":"W gabinecie ortopedycznym świadczymy porady lekarskie, diagnostyke i leczenie",
+		"url":"/ortopeda"
 	}
 
 ]
