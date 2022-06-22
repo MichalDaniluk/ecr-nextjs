@@ -13,8 +13,8 @@ const  MainMenu = () => {
                   <li className="m-4 text-white uppercase"><Link href="/tecar">Tecar</Link></li>
                   <li className="m-4 text-white uppercase"><Link href="/rodo">RODO</Link></li>
                   <li className="m-4 text-white uppercase"><Link href="/galeria">Galeria</Link></li>
-                  <li className="m-4 text-white uppercase"><Link href="#testimonial">Opinie o nas</Link></li>
-                  <li className="m-4 text-white uppercase"><Link href="#contact">Kontakt</Link></li>
+                  <li className="m-4 text-white uppercase"><Link href="/#testimonial">Opinie o nas</Link></li>
+                  <li className="m-4 text-white uppercase"><Link href="/#contact">Kontakt</Link></li>
                   <li className="m-4 text-white uppercase"><Link href="/assets/deklaracja_dostepnosci.pdf">Deklaracja dostępności</Link></li>
                 </ul>
               </div>
