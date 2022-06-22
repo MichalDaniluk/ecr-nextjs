@@ -5,7 +5,7 @@ import HRShort from '../ui/HRShort'
 
 const Contact = () => {
 return(
-	<section className=" gap-4 bg-gradient-to-b from-cyan-500 to-blue-500 p-12">
+	<section id="contact" className=" gap-4 bg-gradient-to-b from-cyan-500 to-blue-500 p-12">
 		<div className="m-auto max-w-screen-2xl">
 		<Header2 title="Skontaktuj się z nami" dark={false} />
 		<SubHeader title="Zadzwoń do nas lub napisz wiadomość email" dark={false}/>
